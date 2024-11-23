@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biomedical Waste Segregation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .waste-category {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+        }
+        .color-code {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Biomedical Waste Segregation</h1>
+        <div class="waste-category">
+            <h2>Infectious Waste</h2>
+            <p class="color-code">Color Code: Yellow</p>
+            <p>Includes waste that may contain pathogens, such as blood-soaked bandages and cultures.</p>
+        </div>
+        <div class="waste-category">
+            <h2>Pathological Waste</h2>
+            <p class="color-code">Color Code: Red</p>
+            <p>Includes human tissues, organs, and anatomical parts.</p>
+        </div>
+        <div class="waste-category">
+            <h2>Sharps Waste</h2>
+            <p class="color-code">Color Code: Blue</p>
+            <p>Includes needles, blades, and other sharp objects that can cause injury.</p>
+        </div>
+        <div class="waste-category">
+            <h2>Pharmaceutical Waste</h2>
+            <p class="color-code">Color Code: Black</p>
+            <p>Includes expired or unused medications and their containers.</p>
+        </div>
+        <div class="waste-category">
+            <h2>Non-Hazardous Waste</h2>
+            <p class="color-code">Color Code: Green</p>
+            <p>Includes general waste that does not pose a risk to health or the environment.</p>
+        </div>
+    </div>
+</body>
+</html>
